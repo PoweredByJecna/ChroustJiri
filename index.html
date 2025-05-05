@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Životopis – Bc. Jiří Chroust</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="js.js" defer></script>
+</head>
+<body>
+    <!-- Navigační menu -->
+    <header class="header">
+        <nav>
+            <ul>
+                <li><a href="#uvod">Domov</a></li>
+                <li><a href="#Kontakt">Kontakt</a></li>
+                <li><a href="#vzdelani">Vzdělání</a></li>
+                <li><a href="#LinkedIn">LinkedIn</a></li>
+                <li><a href="#Github">Github</a></li>
+                <li><a href="#Dovednosti">Dovednosti</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <canvas id="binaryCanvas"></canvas>
+
+  <div class="nav-dots">
+    <a href="#uvod" class="dot" id="dot-uvod"></a>
+    <a href="#Kontakt" class="dot" id="dot-Kontakt"></a>
+    <a href="#vzdelani" class="dot" id="dot-vzdelani"></a>
+    <a href="#LinkedIn" class="dot" id="dot-LinkedIn"></a>
+    <a href="#Github" class="dot" id="dot-Github"></a>
+    <a href="#Dovednosti" class="dot" id="dot-Dovednosti"></a>
+  </div>
+
+
+    <!-- Úvodní sekce s kontaktními informacemi -->
+    <section id="uvod" class="section">
+        <div class="section-content">
+          <h1>Bc. Jiří Chroust</h1>
+          <p>Student magisterského oboru informatiky na ČZU. Pracuji v telekomunikacích, ale hledám příležitost v IT, kde bych mohl rozvíjet své dovednosti v programování. Zaměřuji se na vývoj webových aplikací v .NET s využitím moderních přístupů, jako je Clean Architecture.</p>
+        </div>
+        <div class="section-image">
+          <img src="images/profil.jpg" alt="Profilová fotografie">
+        </div>
+    </section>
+
+    <!-- Sekce Kontakt -->
+    <section id="Kontakt" class="section">
+        <div class="container">
+            <h2>Kontakt</h2>
+            <div class="container content">
+                <div class="containersmall">
+                    <div class="section-image">
+                        <img src="images/mail-bg.png" class="img contact" alt="E-mail logo" class="email-logo">
+                    </div>  
+                    <div class="section-content">
+                        <p>E-mail: chroust.jirka65@gmail.com</p>
+                    </div>
+                </div>
+                <div class="containersmall">
+                    <div class="section-image">
+                        <img src="images/phone.png" class="img contact" alt="Telefon logo" class="phone-logo">
+                    </div>
+                    <div class="section-content">
+                        <p>Telefon: +420 606 794 464</p>
+                    </div>
+                </div>   
+            </div> 
+        </div>    
+    </section>
+
+    <!-- Sekce Vzdělání -->
+    <section id="vzdelani" class="section">
+        <div class="container">
+            <h2>Vzdělání</h2>
+            <div class="container content">
+                <!-- Maturita-->
+                <div class="containersmall maturita">
+                    <div class="section-image">
+                        <img src="images/jecna-bg.png" class="imgSchools" alt="Logo Ječná" class="logo">
+                    </div>
+                    <div class="section-content">
+                        <h3>🎓 Střední průmyslová škola elektrotechnická Ječná</h3>
+                        <p>Střední odborné vzdělání zakončené maturitou</p>
+                        <p>Obor: Automatizace a robotizace</p>
+                        <p>Studium: 2016 - 2020</p>
+                    </div>
+                </div>  
+
+                <!-- Vysoká škola -->
+                <div class="containersmall BC">
+                    <div class="section-image">
+                        <img src="images/pef-bc-bg.png" class="imgSchools" alt="Logo ČZU" class="logo">
+                    </div>
+                    <div class="section-content">
+                        <h3>🎓 Česká zemědělská univerzita v Praze</h3>
+                        <p>Fakulta: Provozně ekonomická fakulta</p>
+                        <p>Obor: Informatika</p>
+                        <p>Studium: 2020 - 2023</p>
+                        <p>Stupeň: Bc.</p>
+                    </div>
+                </div>
+                <!-- Magisterské studium -->
+                <div class="containersmall ING">
+                    <div class="section-image">
+                        <img src="images/pef-ing-bg.png" class="imgSchools" alt="Logo ČZU" class="logo">
+                    </div>
+                    <div class="section-content">
+                        <h3>🎓 Česká zemědělská univerzita v Praze</h3>
+                        <p>Fakulta: Provozně ekonomická fakulta</p>
+                        <p>Obor: Informatika</p>
+                        <p>Studium: 2023 - současnost</p>
+                        <p>Stupeň: Ing.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    
+    <!-- Sekce LinkedIn -->
+    <section id="LinkedIn" class="section soc">
+      <div class="section-image">
+      <a href="https://www.linkedin.com/in/ji%C5%99%C3%AD-chroust-4597a0321/"><img src="images/linkedin-bg.png" class="imgSchools" alt="Logo ČZU" class="logo"></a>
+    </div>
+    </section>
+
+    <!-- Sekce Github -->
+    <section id="Github" class="section soc">
+      <div class="section-image">
+      <a href="https://github.com/PoweredByJecna"><img src="images/git-bg.png" class="imgSchools" alt="Logo ČZU" class="logo"><div class="skill"></a>
+      </div>
+    </div>
+    </section>
+
+    <!-- Sekce Dovednosti -->
+    <section id="Dovednosti" class="section">
+        <div class="container">
+          <h2>Dovednosti</h2>
+          <div class="skills-wrapper">
+            <!-- Levý sloupec – Technical Skills -->
+            <div class="skills-column">
+              <h3 class="skillNadpis">Zkušenosti</h3>
+              <div class="skills">
+                <div class="skillscube">
+                  <p>.net</p>
+                </div>
+                <div class="skillscube">
+                  <p>c#</p>
+                </div>
+                <div class="skillscube">
+                  <p>HTML/css</p>
+                </div>
+                <div class="skillscube">
+                  <p>Clean architecture</p>
+                </div>
+                <div class="skillscube">
+                  <p>Javascrtip/Ajax/Json</p>
+                </div>
+                <div class="skillscube">
+                  <p>Linux Server</p>
+                </div>
+              </div> 
+            </div>
+            <!-- Pravý sloupec – Soft Skills -->
+            <div class="skills-column">
+              <h3 class="skillNadpis">Jazyky</h3>
+              <div class="skills">
+                <div class="skillscube">
+                  <p>Čeština - Rodný jazyk</p>
+                </div>
+                <div class="skillscube">
+                  <p>Angličtina -  B2</p>
+                </div>
+              </div>  
+            </div>
+         
+          </div>
+        </div>
+      </section>
+      
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>© 2025 Bc. Jiří Chroust. Všechna práva vyhrazena.</p>
+    </footer>
+</body>
+</html>
